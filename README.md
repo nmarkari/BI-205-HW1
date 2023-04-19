@@ -16,3 +16,5 @@ preprocess_and_predict(X,Y,model_file):
             model_file
 ....outputs: y_pred (dictionary of cell_instance:predicted class as a number)
     
+
+Running main_notebook.ipynb downloads the data, preprocesses it, generates "preprocessed_data.csv", makes and saves the correlation heatmap, trains the logistic regression classifier, makes and saves the confusion matrix, and saves the model parameters. "full_data.csv" is the full data from all 40 images, named separately to prevent it from being overwritten when testing out main_notebook.ipynb.  
