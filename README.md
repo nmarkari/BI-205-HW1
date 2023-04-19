@@ -1,6 +1,8 @@
 # BI-205-HW1
 
-model is saved to: "model.sav"
+This project uses sklearn's LogisticRegression classifier with the "balanced" parameter (weighting classes based on inverse of their proportion of the data).
+
+The model is saved to: "model.sav"
 
 To use model, use the following function:
 
