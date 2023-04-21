@@ -22,6 +22,7 @@ dependencies:
   - bzip2=1.0.8=h620ffc9_4
   - c-ares=1.19.0=h80987f9_0
   - ca-certificates=2023.01.10=hca03da5_0
+  - cairo=1.16.0=h302bd0f_4
   - certifi=2022.12.7=py311hca03da5_0
   - cffi=1.15.1=py311h80987f9_3
   - cfitsio=3.470=h7f6438f_7
@@ -38,13 +39,26 @@ dependencies:
   - debugpy=1.5.1=py311h313beb8_0
   - decorator=5.1.1=pyhd3eb1b0_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
+  - eigen=3.3.7=h525c30c_1
   - entrypoints=0.4=py311hca03da5_0
   - executing=0.8.3=pyhd3eb1b0_0
+  - expat=2.4.9=hc377ac9_0
+  - ffmpeg=4.2.2=h04105a8_0
   - flit-core=3.8.0=py311hca03da5_0
+  - fontconfig=2.14.1=hee714a5_2
   - fonttools=4.25.0=pyhd3eb1b0_0
   - freetype=2.12.1=h1192e45_0
   - fsspec=2023.3.0=py311hca03da5_0
+  - gettext=0.21.0=h13f89a0_1
   - giflib=5.2.1=h80987f9_3
+  - glib=2.69.1=h514c7bf_2
+  - gmp=6.2.1=hc377ac9_3
+  - gnutls=3.6.15=h887c41c_0
+  - graphite2=1.3.14=hc377ac9_1
+  - gst-plugins-base=1.14.1=h313beb8_1
+  - gstreamer=1.14.1=h80987f9_1
+  - harfbuzz=4.3.0=he9eebac_1
+  - hdf5=1.12.1=h160e8cb_2
   - icu=68.1=hc377ac9_0
   - idna=3.4=py311hca03da5_0
   - imagecodecs=2021.8.26=py311haa897ea_2
@@ -65,12 +79,15 @@ dependencies:
   - jxrlib=1.1=h1a28f6b_2
   - kiwisolver=1.4.4=py311h313beb8_0
   - krb5=1.19.4=h8380606_0
+  - lame=3.100=h1a28f6b_0
   - lcms2=2.12=hba8e193_0
   - lerc=3.0=hc377ac9_0
   - libaec=1.0.4=hc377ac9_1
   - libbrotlicommon=1.0.9=h1a28f6b_7
   - libbrotlidec=1.0.9=h1a28f6b_7
   - libbrotlienc=1.0.9=h1a28f6b_7
+  - libclang=14.0.6=default_h1b80db6_1
+  - libclang13=14.0.6=default_h24352ff_1
   - libcurl=7.88.1=h0f1d93c_0
   - libcxx=14.0.6=h848a8c0_0
   - libdeflate=1.17=h80987f9_0
@@ -80,12 +97,19 @@ dependencies:
   - libgfortran=5.0.0=11_3_0_hca03da5_28
   - libgfortran5=11.3.0=h009349e_28
   - libiconv=1.16=h1a28f6b_2
+  - libidn2=2.3.1=h1a28f6b_0
+  - libllvm14=14.0.6=h7ec7a93_2
   - libnghttp2=1.46.0=h95c9599_0
   - libopenblas=0.3.21=h269037a_0
+  - libopus=1.3=h1a28f6b_1
   - libpng=1.6.39=h80987f9_0
+  - libpq=12.9=h65cfe13_3
   - libsodium=1.0.18=h1a28f6b_0
   - libssh2=1.10.0=hf27765b_0
+  - libtasn1=4.19.0=h80987f9_0
   - libtiff=4.5.0=h313beb8_2
+  - libunistring=0.9.10=h1a28f6b_0
+  - libvpx=1.10.0=hc377ac9_0
   - libwebp=1.2.4=ha3663a8_1
   - libwebp-base=1.2.4=h80987f9_1
   - libxml2=2.10.3=h372ba2a_0
@@ -108,12 +132,17 @@ dependencies:
   - nbformat=5.7.0=py311hca03da5_0
   - ncurses=6.4=h313beb8_0
   - nest-asyncio=1.5.6=py311hca03da5_0
+  - nettle=3.7.3=h84b5d62_1
   - networkx=2.8.4=py311hca03da5_1
   - notebook=6.5.4=py311hca03da5_0
   - notebook-shim=0.2.2=py311hca03da5_0
+  - nspr=4.33=hc377ac9_0
+  - nss=3.74=h142855e_0
   - numexpr=2.8.4=py311hdeb1df9_0
   - numpy=1.23.5=py311hb2c0538_0
   - numpy-base=1.23.5=py311h9eb1c70_0
+  - opencv=4.6.0=py311h6956b77_3
+  - openh264=1.8.0=h98b2900_0
   - openjpeg=2.3.0=h7a6adac_2
   - openssl=1.1.1t=h1a28f6b_0
   - packaging=23.0=py311hca03da5_0
@@ -121,10 +150,12 @@ dependencies:
   - pandocfilters=1.5.0=pyhd3eb1b0_0
   - parso=0.8.3=pyhd3eb1b0_0
   - partd=1.2.0=pyhd3eb1b0_1
+  - pcre=8.45=hc377ac9_0
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=9.4.0=py311h313beb8_0
   - pip=23.0.1=py311hca03da5_0
+  - pixman=0.40.0=h1a28f6b_0
   - platformdirs=2.5.2=py311hca03da5_0
   - pooch=1.4.0=pyhd3eb1b0_0
   - prometheus_client=0.14.1=py311hca03da5_0
@@ -145,6 +176,9 @@ dependencies:
   - pywavelets=1.4.1=py311h80987f9_0
   - pyyaml=6.0=py311h80987f9_1
   - pyzmq=23.2.0=py311h313beb8_0
+  - qt-main=5.15.2=h8c8f68c_8
+  - qt-webengine=5.15.9=h2903aaf_4
+  - qtwebkit=5.212=h19f419d_5
   - readline=8.2=h1a28f6b_0
   - requests=2.28.1=py311hca03da5_1
   - scikit-image=0.19.3=py311h313beb8_2
@@ -174,6 +208,7 @@ dependencies:
   - webencodings=0.5.1=py311hca03da5_1
   - websocket-client=0.58.0=py311hca03da5_4
   - wheel=0.38.4=py311hca03da5_0
+  - x264=1!152.20180806=h1a28f6b_0
   - xz=5.2.10=h80987f9_1
   - yaml=0.2.5=h1a28f6b_0
   - zeromq=4.3.4=hc377ac9_0
@@ -181,4 +216,10 @@ dependencies:
   - zipp=3.11.0=py311hca03da5_0
   - zlib=1.2.13=h5a0b063_0
   - zstd=1.5.5=hd90d995_0
+  - pip:
+      - filelock==3.12.0
+      - mpmath==1.3.0
+      - sympy==1.11.1
+      - torch==2.0.0
+      - torchvision==0.15.1
 prefix: /Users/nicholasmarkarian/miniconda3/envs/bi205

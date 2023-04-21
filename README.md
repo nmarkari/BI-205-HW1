@@ -1,8 +1,8 @@
 # BI-205-HW1
 
-This project uses sklearn's LogisticRegression classifier with the "balanced" parameter (weighting classes based on inverse of their proportion of the data).
+This project uses a 4 layer pytorch neural network.
 
-The model is saved to: "model.sav"
+The model is saved to: "model.pt"
 
 To use model, use the following function:
 
@@ -17,4 +17,4 @@ preprocess_and_predict(X,Y,model_file):
 ....outputs: y_pred (dictionary of cell_instance:predicted class as a number)
     
 
-Running main_notebook.ipynb downloads the data, preprocesses it, generates "preprocessed_data.csv", makes and saves the correlation heatmap, trains the logistic regression classifier, makes and saves the confusion matrix, and saves the model parameters. "full_data.csv" is the full data from all 40 images, named separately to prevent it from being overwritten when testing out main_notebook.ipynb.  
+Running main_notebook.ipynb downloads the data, preprocesses it, generates "full_preprocessed_data.csv", makes and saves the correlation heatmap, trains the neural network, makes and saves the confusion matrix, and saves the model parameters.
